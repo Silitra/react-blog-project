@@ -14,3 +14,25 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##  Тестирование и обратная связь пользователей
+
+Тестирование проводилось по функциональным и пользовательским сценариям (просмотр списка постов, открытие поста, создание поста и навигация).
+
+Все материалы по тестированию находятся в папке `/testing`:
+
+| Файл | Содержание |
+|------|------------|
+| `test_plan.md` | План тестирования |
+| `test_report.md` | Таблица тест-кейсов и результатов |
+| `feedback_summary.md` | Анализ отзывов пользователей |
+| `issues.md` | Найденные ошибки и предложения |
+
+### Итоги тестирования
+По результатам тестирования были выявлены и учтены предложения:
+- Исправлен баг с отправкой формы при пустых полях
+- Запланировано увеличение размеров кнопок
+- Запланировано добавление предпросмотра поста
+- Запланировано добавление автофокуса на поле ввода
+
+Результаты тестирования и исправления будут обновляться по мере развития проекта.
